@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyMate</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #111111;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 60px;
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 38px;
+            font-weight: bold;
+            margin-bottom: 70px;
+        }
+
+        h1 {
+            font-size: 52px;
+            line-height: 1.15;
+            margin-bottom: 50px;
+        }
+
+        .description {
+            font-size: 24px;
+            line-height: 1.5;
+            max-width: 1100px;
+            margin-bottom: 70px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #7048c6;
+            color: white;
+            padding: 18px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn:hover {
+            background: #5635a5;
+        }
+
+        .features {
+            display: flex;
+            gap: 25px;
+            margin-top: 80px;
+        }
+
+        .card {
+            flex: 1;
+            padding: 25px;
+            border-radius: 15px;
+            background: #f5f1ff;
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            STUDYMATE
+        </div>
+
+        <h1>
+            Learn Smarter.<br>
+            Achieve More.
+        </h1>
+
+        <p class="description">
+            StudyMate is a smart learning app that helps students organize
+            their studies, learn effectively, and achieve their academic goals.
+        </p>
+
+        <!-- Functional CTA Button -->
+        <button class="btn" onclick="startLearning()">
+            Get Started
+        </button>
+
+        <div class="features">
+
+            <div class="card">
+                <h2>📚 Study Planner</h2>
+                <p>Organize your daily study schedule easily.</p>
+            </div>
+
+            <div class="card">
+                <h2>🎯 Goal Tracking</h2>
+                <p>Set academic goals and track your progress.</p>
+            </div>
+
+            <div class="card">
+                <h2>⏰ Smart Reminders</h2>
+                <p>Never miss an important study session.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        function startLearning() {
+            alert("Welcome to StudyMate! Let's start learning.");
+        }
+    </script>
+
+</body>
+</html>
